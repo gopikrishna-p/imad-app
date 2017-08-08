@@ -13,8 +13,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/17903507_1949386895284692_2111674903716138658_n.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '17903507_1949386895284692_2111674903716138658_n.jpg'));
 });
 
 
