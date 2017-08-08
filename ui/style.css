@@ -1,10 +1,12 @@
 body {
     font-family: sans-serif;
+    background-image:url('https://storage.googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-200x200.7714256da16f.png');
     background-color: yellow;
     margin-top: 75px;
     margin-left:20px;
     margin-right:20px;
 }
+
 
 .center {
     text-align: center;
