@@ -16,6 +16,9 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
+app.get('/article-one',function(req,res) {
+    res.send("you are in article ");
+});
 
 app.get('/ui/17903507_1949386895284692_2111674903716138658_n.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '17903507_1949386895284692_2111674903716138658_n.jpg'));
